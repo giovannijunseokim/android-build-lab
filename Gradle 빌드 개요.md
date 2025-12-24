@@ -184,7 +184,7 @@ Maven은 관리하는 모든 라이브러리 결과물을 **아티팩트(Artifac
 ## Build variants
 안드로이드 앱을 만들 때 여러 개의 버전([Build Variant](https://developer.android.com/build/build-variants))을 빌드할 수 있다. 각 버전은 서로 다른 코드를 포함하거나, 다른 옵션으로 빌드될 수 있다. 이는 빌드 유형과 제품 버전의 조합으로 구성된다.
 
-**[빌드 유형(Build Type)](https://developer.android.com/build/build-variants#build-types)**은 어떻게 빌드할지를 결정할 수 있다. 기본적으로 AGP에는 release와 debug 빌드 유형이 존재한다. 이를 수정하거나 내부 테스트용 빌드 유형 등을 더 추가할 수 있다.
+**[빌드 유형(Build Type)](https://developer.android.com/build/build-variants#build-types)** 은 어떻게 빌드할지를 결정할 수 있다. 기본적으로 AGP에는 release와 debug 빌드 유형이 존재한다. 이를 수정하거나 내부 테스트용 빌드 유형 등을 더 추가할 수 있다.
 
 - **debug 빌드**는 애플리케이션을 최적화하거나 난독화하지 않는다. 따라서 빌드 속도가 빠르고 변수나 함수의 이름 등 코드 정보가 그대로 유지된다. 또한 앱을 `debuggable` 상태로 표시하고 일반적인 디버그 키로 서명하며, 장치에 설치된 앱 파일에 접근할 수 있다.
 - **release 빌드**는 앱을 최적화하고 실제 릴리즈 키로 서명하며 설치된 앱 파일을 보호한다.
